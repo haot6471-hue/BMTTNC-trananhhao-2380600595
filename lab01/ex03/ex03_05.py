@@ -6,9 +6,10 @@ def dem_so_lan_xuat_hien(lst):
         else:
             count_dict[item] = 1
     return count_dict
-
+#nhập danh sách từ người dùng
 input_string = input("Nhập danh sách các từ, cách nhau bằng dấu cách: ")
 word_list = input_string.split()
 
-so_lan_xuat_hien = dem_so_lan_xuat_hien(word_list)
-print("Số lần xuất hiện của các phần tử:", so_lan_xuat_hien)
+#sử dụng hàm và in kết quả
+dem_so_lan_xuat_hien = dem_so_lan_xuat_hien(word_list)
+print("số lần xuất hiện của các phần tử:", dem_so_lan_xuat_hien)
